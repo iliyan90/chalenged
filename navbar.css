@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 34px;
+    max-width: 1440px;
+    margin: auto;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-input{
+    width: 100px;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    color: lightgray;
+}
+
+.srch-loc{
+    cursor: pointer;
+
+}
+
+@media (max-width: 768px){
+    .nav{
+        flex-direction: column;
+        height: 90px;
+        padding: 10px;
+        margin: auto;
+        align-items: flex-start;
+        width: 100vw;
+    }
+    .search-bar{
+        align-self: center;
+    }
+}
