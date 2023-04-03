@@ -1,0 +1,102 @@
+.job-page{
+    width: 1201px;
+    height: 100vh;
+    display: flex;
+}
+.job-page-left{
+    flex: 2;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.job-back{
+    color: #1E86FF;
+    font-size: 14px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+.job-left-info{
+    width: 200px;
+}
+.job-btn-apply{
+    width: 100%;
+    background-color: #1E86FF;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.job-page-right{
+    flex: 4;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.job-right-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.job-right-company{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #B7BCCE;
+    margin-top: 20px;
+}
+.job-right-company img{
+    width: 42px;
+    height: 42px;
+}
+.job-right-time{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #B7BCCE;
+}
+
+.job-right-comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.job-right-name{
+    font-size: 16px;
+    color: #334680;
+}
+.job-right-desc{
+    margin-top: 20px;
+    color: #334680;
+    font-size: 16px;
+}
+.job-right-desc >div> img{
+    display: none;
+}
+
+.job-right-desc > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job-right-desc > div > ul{
+    list-style: none;
+}
+
+@media (max-width: 900px){
+    .job-page{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
