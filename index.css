@@ -1,0 +1,49 @@
+/* GLOBAL VARIABLES */
+:root{
+
+  --dark: #000000;
+  --text: #21243D;
+  --primary: #FF6464;
+  --secondary: #00A8CC;
+  --bg-dark: #142850;
+  --bg-light: #E5E5E5;
+  --bg-light-blue: #EDF7FA;
+  --light-text: #8695A4;
+  --light: #FFFFFF;
+  --primary-light: #FF7C7C;
+
+  --fz-title: 44px;
+  --fz-text: 16px;
+  --fz-sub-title: 26px;
+  --fz-card-title: 30px;
+  --fz-sub-title-mb: 22px;
+  --fz-title-mb: 32px;
+  --fz-card-title-mb: 24px;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+}
+body{
+  background-color: var(--bg-light);
+}
+
+.flex{
+  flex:1
+}
+.flex2{
+  flex: 2;
+}
+
+.title{
+  color: var(--dark);
+  font-size: var(--fz-title);
+}
+.text{
+  color: var(--dark);
+  font-size: var(--fz-text);
+  max-width: 600px;
+}

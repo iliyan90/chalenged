@@ -1,0 +1,21 @@
+.works {
+  width: 681px;
+  margin: auto;
+}
+
+.works .title {
+  margin-bottom: 55px;
+}
+.works-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 762px){
+    .works{
+        width: 100%;
+        padding: 10px;
+    }
+}
+

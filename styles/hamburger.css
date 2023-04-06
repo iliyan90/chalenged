@@ -1,0 +1,19 @@
+
+.hamb{
+    display: none;
+}
+@media (max-width:762px){
+    .hamb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5px;
+    }
+    
+    .hamb > div{
+        width: 30px;
+        padding: 1px;
+        border-top: 2.6px solid var(--dark);
+    }
+}
